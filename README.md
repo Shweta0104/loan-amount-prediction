@@ -70,8 +70,8 @@ The model uses the following inputs (features):
 Run command:
 pip install pandas numpy scikit-learn joblib
 
-### Step 2 : Train the Model
-This trains the model and saves the model + scaler:
+### Step 2 : Train the Model : saves the model + scaler
+
 Run Command: 
 python -c "import loan_predictor; loan_predictor.run_pipeline('loan_amount_prediction_dataset_v2.csv')"
 
